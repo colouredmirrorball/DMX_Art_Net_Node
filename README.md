@@ -11,9 +11,9 @@ The parameters of the sketch (Art-Net universe and subnet) can be controlled by 
  
  OSC commands:
  
- /status: retrieves the status with some information
- /universe: expects two integers, first integer is device index and second integer is universe
- /subnet: expects two integers, first integer is device index and second integer is subnet
+  * /status: retrieves the status with some information
+  * /universe: expects two integers, first integer is device index and second integer is universe
+  * /subnet: expects two integers, first integer is device index and second integer is subnet
  
  A Processing sketch that implements these messages can be found here: https://github.com/colouredmirrorball/DMX_Art_Net_Master
  
